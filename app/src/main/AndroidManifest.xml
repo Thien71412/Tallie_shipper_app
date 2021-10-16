@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tallieshipper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TallieShipper">
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NewlyCreatedDetailActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".NewlyCreatedListActivity" />
+        <activity android:name=".taken_orders_list" />
+        <activity android:name=".taken_order_detail" />
+        <activity android:name=".Delivered_detail" />
+        <activity android:name=".DeliveredActivity" />
+        <activity android:name=".DeliveringActivity" />
+        <activity android:name=".Delivering_detail" />
+        <activity android:name=".RegisterActivity" />
+
+
+        <activity android:name=".LoginActivity"> <!-- ong muon chay man hinh nao truoc thi thay o day la dc -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

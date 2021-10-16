@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tallie Shipper</string>
+    <string name="recipient">Recipient ID: </string>
+    <string name="product_details">Product ID: </string>
+    <string name="has_taken">Has Taken</string>
+    <string name="order">Order: </string>
+    <string name="_60d1f8ac9d157f231">60d1f8ac9d157f231</string>
+    <string name="created_at">Created at </string>
+    <string name="tuesday_june22_2021_2_48_pm">Tuesday, June22,2021 2:48 PM</string>
+</resources>
